@@ -1,30 +1,30 @@
 import styled from "styled-components";
 
 export const SectionContainer= styled.section`
-    height: 640px;
+    height: 40rem;
     display: flex;
-    padding: 0 135px;
-    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0 8.4375rem;
 `;
 export const ContainerConteudo = styled.div`
-    margin-top: 138px;
+    margin-top: 8.4375rem;
     p{
         font-family: "Sora", sans-serif;
         font-weight: 600;
-        font-size: 48px;
+        font-size: 3rem;
         color: #293145;
-        line-height: 60.48px;
+        line-height:3.78rem;
         position: relative;
-        margin-bottom: 66px;
+        margin-bottom: 4.125rem;
     }
     a{
         text-decoration: none;
         color: #ffffff;
-        padding: 16px 36px;
+        padding: 1rem 2.2rem;
         background-color: #0F9AFE;
         border-radius: 20px;
         font-family: 'inter';
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 600;
         transition: 0.3s;
     }
@@ -35,6 +35,6 @@ export const ContainerConteudo = styled.div`
     }
 `;
 export const ImagemG = styled.img`
-    height: 500px;
-    width: 500px;
+    height: 31.25rem;
+    width:  31.25rem;
 `;

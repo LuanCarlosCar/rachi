@@ -5,7 +5,7 @@ import Funcinalidade from './components/Funcionalidade';
 import Header from './components/Header';
 import Planos from './components/Planos';
 import Footer from './components/Footer';
-import './index.css'
+import './styles.css';
 
 function App() {
   return (

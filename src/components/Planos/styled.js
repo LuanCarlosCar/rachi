@@ -16,8 +16,10 @@ export const ContainerPlanos = styled.section`
         margin-bottom: 16px;
     }
     ul{
-        display: flex;
-        list-style: none;
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
     
     }
 `;
